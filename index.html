@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Externaal css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal css -->
+    <!-- <style>
+        .whatislorem{
+            color: darkgreen;
+        }
+    </style> -->
+
+
+</head>
+
+<body>
+    <header>
+        <section class="navbar">
+            <i class="fa fa-contao" style="font-size:48px;color: gold"></i>
+            
+            <nav>
+                <ul>
+                    <li><a href="#intro">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#playlist">playlist</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#contact">database</a></li> 
+                </ul>
+            </nav>
+            <a class="getstarted" href="#">Get Started</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="intro">
+           <h1 class="title">Welcome to CodeTRG</h1>
+       
+            <div class="loremcenter">
+                <div class="loremcontent">
+                    <p>
+                        <h3 class="whatislorem">What is Lorem Ipsum?</h3>
+                    </p>
+                    <p class="firstpara">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="signupsignin">
+                        <div>
+                            <a class="signup" href="#">Sign UP</a>
+                        </div>
+                       <div>
+                        <a class="signin" href="#">Sign IN</a>
+                       </div>
+                    </div>
+                </div>
+                <div class="loremcenterimage">
+                    <img src="assets/1023404_6362.jpg">
+                </div>
+                <div class="signupsignintwo">
+                    <div>
+                        <a class="signuptwo" href="#">Sign UP</a>
+                    </div>
+                    <div>
+                        <a class="signintwo" href="#">Sign IN</a>
+                    </div>
+                </div>
+             
+            </div>
+        
+        </section>
+
+        <section id="about">
+            <h4 class="title">An Overview</h4>
+            <div class="loremsecondcenter">
+                <h3 class="whatislorem">Where can I get some?   </h3>
+               <p class="secondpara">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+               </p>
+            </div>
+            
+
+            
+        </section>
+
+        <div class="buttoncenter">
+            <div class="clickhere">
+                <a class="button" href="#">My Portfolio</a>
+            </div>
+            <div class="ourservices">
+                <a class="button" href="#">Our Services</a>
+            </div>
+        </div>
+       
+        <p>
+            <h3 class="creote">Registration Portal</h3>
+        </p>
+        <section class="form" id="contact">
+            <form action="">
+                <div class="formclass">
+                   <label form="">Full Name</label>
+                   <br /><br />
+                   <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                </div>
+          
+                <div class="formclass">
+                   <label form="email">Email</label>
+                   <br /><br />
+                   <input type="email" name="email" id="email" placeholder="user@company.com">
+                </div>
+          
+                <div class="formclass">
+                   <label form="password">Password</label>
+                   <br /><br />
+                   <input type="password" name="password" id="password" placeholder="*********">
+                </div>
+          
+                <div class="formclass">
+                   <label form="Phone">Phone</label>
+                   <br /><br />
+                   <input type="tel" name="Phone" id="Phone" placeholder="+234803xxxxxxx">
+                </div>
+          
+                <div class="gender">
+                   <label for="gender">Gender</label>
+                   <input type="radio" name="gender" id="gender" value="Male"><span>Male</span>
+                   <input type="radio" name="gender" id="gender" value="Female"><span>Female</span>
+                </div>
+          
+                <div class="formclass">
+                   <label for="state">State of Origin</label>
+                   <br /><br />
+                   <select name="state" id="state">
+                      <option disabled selected>Select your state</option>
+                      <option value="Delta">Delta</option>
+                      <option value="Abia">Abia</option>
+                      <option value="Oyo">Oyo</option>
+                  </select>
+                </div>
+         
+                <div class="hobbies">
+                   <label for="hobbies">Hobbies</label>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Swimming"><span>Swimming</span>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Singing"><span>Singing</span>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Reading"><span>Reading</span>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Gaming"><span>Gaming</span>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Coding"><span>Coding</span>
+                   <input type="checkbox" name="hobbies" id="hobbies" value="Dancing"><span>Dancing</span>
+                </div>
+          
+                <div class="formclass">
+                   <label for="dob">Date of Birth</label>
+                   <br /><br />
+                   <input type="date" name="dob" id="dob" placeholder="dd/mm/yyyy">
+                </div>
+      
+                <div class="formclass">
+                   <label for="time">Booking Time With Us</label>
+                   <br /><br />
+                   <input type="time" name="time" id="time" placeholder="hh:mm">
+                </div>
+         
+                <div class="formclass">
+                   <label for="job proposal">Submit your desired Job Proposal here</label>
+                   <br /><br />
+                   <input type="file" name="job proposal" id="job proposal" accept=".jpg, .png, .jpeg, .gif" size="1omb">
+                </div>
+          
+                <div class="formclass">
+                   <label for="feedback">Why should we work with you? :</label>
+                   <textarea name="feedback" id="feedback" placeholder="Write your comment here"></textarea>
+                </div>
+          
+                <div class="formclass">
+                   <button class="submitbutton">SUBMIT APPLICATION</button>
+                </div>
+         
+                <div class="reset">
+                   <input type="reset">
+                </div>
+          </form>
+        </section>
+        <div class="imagegridsection">
+            <div class="sectiongrid"><img src="assets/black_and_yellow_grunge_paint_splatter_background_2007.jpg"></div>
+            <div class="sectiongrid"><img src="assets/171914386_0f8c4773-a5d6-4dcb-abe9-ccbe5a0a4534.jpg"></div>
+            <div class="sectiongrid"><img src="assets/1023404_6362.jpg"></div>
+            <div class="sectiongrid"><img src="assets/10837615_19449871.jpg"></div>
+            <div class="sectiongrid"><img src="assets/381377763_00fa5b60-a464-4c1e-a7ad-6f49e5cff22e.jpg"></div>
+            <div class="sectiongrid"><img src="assets/18304773_5922799.jpg"></div>
+        </div>
+        <table class="table">
+        <caption>People and their Status</caption>
+        <tr>
+            <th>S/N</th>
+            <th>Names</th>
+            <th>Status</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>State of Origin</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Chinedu</td>
+            <td>Married</td>
+            <td>Male</td>
+            <td>08105958002</td>
+            <td>Delta</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tochi</td>
+            <td>Single</td>
+            <td>Male</td>
+            <td>09088776644</td>
+            <td>Kano</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Temi Tee</td>
+            <td>Married </td>
+            <td>Female</td>
+            <td>08166016790</td>
+            <td>Oyo</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>Discount Rate</td>
+                <td>Discount Amount</td>
+                <td>Gross Total</td>
+            </tr>
+        </tfoot>
+        </table>
+       
+    </main>
+    <footer>
+        <div class="footerlogo">
+            <i class="fa fa-contao" style="font-size:48px;color: gold"></i>
+        </div>
+        <div class="footerpara">
+            <h3>Company</h3>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+        <div class="footerpara">
+             <a class="footerpara" href="#" style="text-decoration: none;"><h3>Contact</h3></a>
+             <p>Telephone: +234 (810) 595 8002</p>
+             <p>Address: Bode Williams street, Surulere, Lagos, Nigeria.</p>
+             <p>Zip Code: +23401</p>
+        </div>
+        <div class="footerpara">
+            <h3>My Links</h3>
+            <a target="_blank" href="https://github.com/nedtrg/nedtrg"><i class="fa fa-github" style="font-size:36px"></i></a>
+            <a target="_blank" href="https://linkedin.com"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+            <a target="_blank" href="https://twitter.com"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        </div>
+        <div class="footerparafinal">
+            <p>All Rights Reserved CodeTRG&#169</p>
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>
